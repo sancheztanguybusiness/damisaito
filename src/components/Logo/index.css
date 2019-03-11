@@ -1,0 +1,19 @@
+#Logo {
+  width: 100%;
+  padding: 1%;
+  color: white;
+}
+
+#Logo .img {
+  float: left;
+
+  width: 96px; height: 96px;
+  background-size: 96px;
+
+  background-repeat: no-repeat;
+  background-image: url('../../assets/logo.png');
+}
+
+#Logo #title {
+  font-size: 5em;
+}

@@ -1,0 +1,17 @@
+#Menu {
+  position: absolute;
+  top : 20%;
+  left: 7%;
+  font-size: 1.2em;
+}
+
+a{
+  display: block;
+
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+a:before { content: '‣　'; }
+a:hover { color: orange; }
