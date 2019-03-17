@@ -1,6 +1,8 @@
 #Logo {
   width: 100%;
   padding: 1%;
+  margin-top: 2%;
+  margin-left: 2%;
   color: white;
 }
 
@@ -16,4 +18,20 @@
 
 #Logo #title {
   font-size: 5em;
+}
+
+@media screen and (max-width: 584px) and (max-width: 712px) {
+  #Logo #title {
+    position: relative;
+    top: 15px;
+    left: 25px;
+
+    font-size: 1.6em;
+  }
+
+  #Logo .img{
+    width: 0px;
+    height: 0px;
+    background-size: 0px;
+  }
 }

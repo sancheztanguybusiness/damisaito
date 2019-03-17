@@ -7,7 +7,7 @@ class logo extends Component {
       <div id = "Logo" className = { this.props.className }>
 
         <div class = 'img rotation-slow' />
-        <div id = 'title'>KAISHA</div>
+        <div id = 'title'>DAAMISAITO</div>
 
       </div>
     );

@@ -7,29 +7,29 @@ body{
 }
 
 .rotation-slow {
-  -webkit-animation: rotate 10s linear infinite;
-          animation: rotate 10s linear infinite;
+  -webkit-animation: rotate 2.5s linear infinite;
+          animation: rotate 2.5s linear infinite;
   }
   @-webkit-keyframes rotate{ to{-webkit-transform: rotate(360deg); } }
   @keyframes         rotate{ to{        transform: rotate(360deg); } }
 
 .rotation-slow:hover { cursor: pointer;
-  -webkit-animation: rotate 2.5s linear infinite;
-          animation: rotate 2.5s linear infinite;
+  -webkit-animation: rotate 10s linear infinite;
+          animation: rotate 10s linear infinite;
   }
   @-webkit-keyframes rotate{ to{-webkit-transform: rotate(360deg); } }
   @keyframes         rotate{ to{        transform: rotate(360deg); } }
 
 .rotation-fast {
-  -webkit-animation: rotate 2.5s linear infinite;
-          animation: rotate 2.5s linear infinite;
+  -webkit-animation: rotate 10s linear infinite;
+          animation: rotate 10s linear infinite;
   }
   @-webkit-keyframes rotate{ to{-webkit-transform: rotate(360deg); } }
   @keyframes         rotate{ to{        transform: rotate(360deg); } }
 
 .rotation-fast:hover { cursor: pointer;
-  -webkit-animation: rotate 10s linear infinite;
-          animation: rotate 10s linear infinite;
+  -webkit-animation: rotate 2.5s linear infinite;
+          animation: rotate 2.5s linear infinite;
   }
   @-webkit-keyframes rotate{ to{-webkit-transform: rotate(360deg); } }
   @keyframes         rotate{ to{        transform: rotate(360deg); } }
