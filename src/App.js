@@ -3,6 +3,7 @@ import './index.css';
 
 import Header from './components/Header';
 import Content from './components/Content';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div id= "App" >
         <Header />
         <Content />
+        <Footer />
       </div>
     );
   }

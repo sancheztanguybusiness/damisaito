@@ -1,7 +1,7 @@
 #Logo {
   width: 100%;
   padding: 1%;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-left: 2%;
   color: white;
 }
@@ -18,6 +18,13 @@
 
 #Logo #title {
   font-size: 5em;
+}
+
+@media screen and (max-width: 712px) and (max-width: 900px) {
+  #Logo{
+    position: relative;
+    top: 40px;
+  }
 }
 
 @media screen and (max-width: 584px) and (max-width: 712px) {

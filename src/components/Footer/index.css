@@ -1,0 +1,15 @@
+#Footer { margin-left: 8%; display: block; text-align: left; }
+
+#Footer ul {
+  display: inline-block;
+
+  list-style: none;
+  color: black;
+  padding: 0;
+}
+
+#Footer li:hover { cursor: pointer; color: orange; }
+
+#Footer li { display: inline-block; }
+
+#Footer li:before { content: "　‣　"; }

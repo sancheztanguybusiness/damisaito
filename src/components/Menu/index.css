@@ -1,0 +1,21 @@
+#Menu { display: inline-block; }
+
+#Menu ul {
+  display: inline-block;
+  list-style: none;
+  color: black;
+  padding: 0;
+}
+
+@media screen and (max-width: 584px) and (max-width: 712px) {
+  #Menu ul {
+    position: relative;
+    top: 50px;
+  }
+}
+
+#Menu li:hover { cursor: pointer; color: orange; }
+
+#Menu li { display: inline-block; }
+
+#Menu li:before { content: "　‣　"; }
